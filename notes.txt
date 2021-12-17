@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.19043.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WhiteHatJr\Class127> python -m venv venv
+
+C:\WhiteHatJr\Class127>venv\Scripts\activate.bat
+
+(venv) C:\WhiteHatJr\Class127>
+----------------------------------------------------------
+install chromedriver by checking the google chrome version
+
+pip install bs4
+pip install selenium
+
+bs4 is used for parsing text as html and perform actions on it
+selenium is used to interact with web pages used in automation testing
+time is used to make our code sleep for sometime so the web page can load properly before we scrap
